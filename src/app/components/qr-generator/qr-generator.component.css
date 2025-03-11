@@ -1,0 +1,86 @@
+.qr-card {
+  max-width: 500px;
+  width: 100%;
+  padding: 2.5em;
+  background: rgba(245, 245, 245, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Exo 2', sans-serif;
+}
+
+.qr-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 0.9);
+  margin-bottom: 0.75em;
+  line-height: 1.2;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.qr-subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 0.8);
+  margin-bottom: 2em;
+  line-height: 1.5;
+}
+
+.qr-input {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.qr-input .mat-form-field-outline {
+  border-radius: 8px;
+  border-color: rgba(169, 169, 169, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.qr-input .mat-form-field-outline-thick {
+  border-color: rgba(128, 128, 128, 0.8);
+}
+
+.qr-input .mat-input-element {
+  color: rgba(51, 51, 51, 0.9);
+  font-family: 'Exo 2', sans-serif;
+}
+
+.qr-input .mat-form-field-label {
+  color: rgba(128, 128, 128, 0.7);
+  font-family: 'Exo 2', sans-serif;
+}
+
+.qr-button {
+  width: 100%;
+  padding: 1.2em;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 8px;
+  background: rgba(128, 128, 128, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 1.5em;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.qr-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(128, 128, 128, 0.3);
+}
+
+.qr-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.qr-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,17 @@
+<mat-card class="qr-card">
+  <mat-card-header>
+    <mat-card-title class="qr-title">Generador de Códigos QR</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field appearance="outline" class="qr-input">
+      <mat-label>URL</mat-label>
+      <input matInput [(ngModel)]="url" placeholder="https://ejemplo.com">
+    </mat-form-field>
+    <button mat-raised-button class="qr-button" (click)="generateQR()">
+      Generar QR
+    </button>
+  </mat-card-content>
+  <mat-card-content *ngIf="qrCodeImage" class="qr-image-container">
+    <img [src]="qrCodeImage" alt="QR Code" class="qr-image">
+  </mat-card-content>
+</mat-card>
